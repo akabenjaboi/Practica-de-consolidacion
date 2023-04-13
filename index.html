@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <!-- hoja de estilos propia -->
+  <link rel="icon" type="image/jpg" href="assets/img/favicon.png"/>
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <title>Digimon</title>
+</head>
+
+<body>
+
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="assets/img/DigimonLogo.png" width="80px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="buscarTabla.html">Lista de Digimons</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Buscar
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="buscarByName.html">Por nombre</a></li>
+                            <li><a class="dropdown-item" href="buscarByList.html">Por lista</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/img/fondo2 (1).png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/fondo2 (2).png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/fondo4.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <div class="container mt-4">
+    <h1>¿Que es Digimon?</h1>
+    <div class="row mt-5">
+
+      <div class="col-lg-6 col-md-6 order-lg-1 order-md-1 mb-4">
+        <img src="assets/img/poster.png" alt="Imagen" class="img-fluid poster">
+      </div>
+      <div class="col-lg-6 col-md-6 order-lg-2 order-md-2">
+        <div class="p-4 informacion">
+          <h2 class="text-center">Sinopsis</h2>
+          <p>Digimon es una franquicia de medios japonesa que comenzó con una serie de televisión animada en 1999, y desde entonces se ha expandido a varios otros medios, incluyendo juegos de video, películas, mangas y juguetes.
+
+            La historia de Digimon gira en torno a un grupo de niños elegidos que son transportados a un mundo digital habitado por criaturas digitales llamadas Digimon. Los niños y sus Digimon deben trabajar juntos para derrotar a fuerzas malvadas y proteger tanto el mundo digital como el mundo real. A medida que la serie ha evolucionado a lo largo de los años, se han presentado nuevos personajes y conceptos, pero el tema general de la amistad y la colaboración para superar obstáculos ha sido una constante en todas las encarnaciones de la franquicia.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+
+    <!-- Bootsrap -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+</body>
+
+</html>

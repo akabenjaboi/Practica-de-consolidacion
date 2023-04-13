@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    color: #EEEEEE;
+}
+
+#resultado {
+    background-color: #00ADB5;
+    display: none;
+    text-align: center;
+}
+
+body {
+    background-color: #222831;
+}
+
+#texto {
+    color: #EEEEEE;
+}
+
+.informacion {
+    color: #EEEEEE;
+}
+
+.poster {
+    height: 35em;
+    border-radius: 15px;
+    margin: 0 auto;
+    display: block;
+}
+
+.tabla{
+    color: #222831;
+}
+
+.imgdigi{
+    height: 35px;
+}
+
