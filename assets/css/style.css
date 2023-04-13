@@ -43,3 +43,10 @@ body {
     height: 35px;
 }
 
+.logo{
+    width: 80px;
+}
+
+.parrafo{
+    text-align: justify;
+}
