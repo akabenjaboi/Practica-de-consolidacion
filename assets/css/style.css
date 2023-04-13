@@ -9,7 +9,7 @@ h1 {
     text-align: center;
 }
 
-body {
+body, .footer {
     background-color: #222831;
 }
 
@@ -17,7 +17,7 @@ body {
     color: #EEEEEE;
 }
 
-.informacion {
+.informacion, .footer {
     color: #EEEEEE;
 }
 
@@ -50,3 +50,4 @@ body {
 .parrafo{
     text-align: justify;
 }
+
