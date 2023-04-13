@@ -38,7 +38,7 @@ function mostrarModal(id) {
     modalBody.innerHTML = `
         <div class="row">
             <div class="col-md-6">
-                <img src="${digimon.img}" class="img-fluid">
+                <img src="${digimon.img}" class="img-fluid digimonModalImg">
             </div>
             <div class="col-md-6">
                 <p><strong>Nivel:</strong> ${digimon.level}</p>

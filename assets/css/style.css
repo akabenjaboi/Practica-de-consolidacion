@@ -28,6 +28,13 @@ body {
     display: block;
 }
 
+
+.digimonModalImg{
+    margin: 0 auto;
+    display: block;
+}
+
+
 .tabla{
     color: #222831;
 }
