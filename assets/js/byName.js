@@ -1,9 +1,6 @@
-
 function mostrarDiv(){
   document.getElementById("resultado").style.display = "block";
 }
-
-
 
 const form = document.getElementById("buscador");
     const resultado = document.querySelector("#resultado");

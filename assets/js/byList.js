@@ -1,18 +1,13 @@
-
 function mostrarDiv() {
     document.getElementById("resultado").style.display = "block";
 }
 
-
-
-// Obtener el elemento de selección
 var select = document.getElementById("opciones");
 
-// Hacer una solicitud a la API
 fetch("https://digimon-api.vercel.app/api/digimon/")
     .then(response => response.json())
     .then(data => {
-        // Crear elementos de opción y agregarlos al elemento de selección
+        
         data.forEach(item => {
             var option = document.createElement("option");
             option.text = item.name;
@@ -20,10 +15,6 @@ fetch("https://digimon-api.vercel.app/api/digimon/")
             select.appendChild(option);
         });
     });
-
-
-
-
 
 const form = document.getElementById("buscador");
 const resultado = document.querySelector("#resultado");
@@ -35,10 +26,6 @@ form.addEventListener("submit", async (event) => {
 
     console.log(digimon)
     const url = `https://digimon-api.vercel.app/api/digimon/name/${digimon}`;
-
-
-
-
 
     try {
         const response = await fetch(url);
